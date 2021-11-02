@@ -1,0 +1,16 @@
+{
+  "name": "blockchain_browser",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "serve",
+    "build": "tsc",
+    "deploy": "copyfiles -f src/browser/*.html src/browser/*.css dist"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.10.3",
+    "copyfiles": "^2.4.1",
+    "serve": "^12.0.1",
+    "typescript": "^4.4.3"
+  }
+}

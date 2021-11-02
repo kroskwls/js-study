@@ -1,0 +1,12 @@
+{
+	"compileOnSave": false, // ts파일 수정시 자동 컴파일 금지
+	"compilerOptions": {
+		"target": "es2017",
+		"sourceMap": true,
+		"plugins": [
+			{
+				"name": "typescript-lit-html-plugin"
+			}
+		]
+	}
+}
